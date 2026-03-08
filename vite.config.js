@@ -6,6 +6,7 @@ import path from 'path'
 import os from 'os'
 
 export default defineConfig({
+  base: '/blood-pressure-angel/',
   plugins: [
     react(),
     tailwindcss(),
